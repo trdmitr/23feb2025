@@ -5,9 +5,9 @@ const usePlaylist = (songs) => {
    
     useEffect(() => {
         if (songs) {
-      listNow(songs);
+      listNow(songs);// eslint-disable-line no-use-before-define
         }
-    }, []);
+    }, []);// eslint-disable-line no-use-before-define
 
     const listNow = () => {
         const audiosongs1 = songs.map((song) => {

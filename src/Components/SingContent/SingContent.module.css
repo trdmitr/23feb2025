@@ -155,9 +155,7 @@
     outline-width: 0;
   }
   
-  audio::-webkit-media-controls-panel {background-color: hsla(138, 39%, 51%, 0.384);}
-  audio::-webkit-media-controls-play-button {background-color: rgb(255, 102, 0);}
-  audio::-webkit-media-controls-volume-slider {background-color: #ccc;}
+
   
   
   
